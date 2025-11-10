@@ -1,0 +1,145 @@
+:root{
+    --primary-color: #393232;
+    --secondary-color: #ED8D8D;
+    --tetiary-color: #8D6262;
+    --base-color : #4D4545;
+    --font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 20px 0;
+
+}
+
+.nav-links{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    justify-items: center;
+    list-style: none;
+}
+
+.nav-items a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 600;
+    
+}
+.nav-items:hover{
+    color: var(--secondary-color);
+    transition: all  0.5s ease-in-out;
+    scale: 1.1;
+    a{
+        color: var(--secondary-color);
+    }
+}
+.about_me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    gap: 20px;
+}
+.about_me_text{
+    color: var(--primary-color);
+}
+.about_me_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_me_image img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.who_i_am{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    direction: rtl;
+    padding: 15px;
+    gap: 20px;
+    background-color: var(--primary-color);
+    color: white;
+    height: fit-content;
+}
+.who_i_am_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    direction: ltr;
+}
+.who_i_am_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+.who_i_am_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.primary_btn{
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid var(--secondary-color);
+    width: fit-content;
+}
+.primary_btn:hover{
+    background-color: var(--secondary-color);
+    color: white;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+.life_journey{
+    padding: 20px;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: larger;
+}
+
+.hero_section{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: var(--base-color);
+    color: white;
+    padding: 30px;
+    gap: 20px;
+    /* font-size: xx-large; */
+}
+.hero_text{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero_image{
+    width: 50%;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+.hero_image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
