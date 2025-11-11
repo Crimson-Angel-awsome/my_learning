@@ -30,7 +30,7 @@ header{
 
 .nav-items a{
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--tetiary-color);
     font-weight: 600;
     
 }
@@ -103,8 +103,8 @@ header{
     width: fit-content;
 }
 .primary_btn:hover{
-    background-color: var(--secondary-color);
-    color: white;
+    background-color: var(--tetiary-color);
+    color: var(--primary-color);
     transition: all 0.5s ease-in-out;
 }
 
@@ -176,7 +176,7 @@ header{
 .real-contact {
     background-size: cover;
     background-position: center;
-    background-color: var(--primary-color);
+    background-color: var(--base-color);
     color: var(--primary-color);
     display: flex;
 }
@@ -192,7 +192,7 @@ header{
     justify-items: center;
     align-items: center;
     margin: 200px 100px 100px 200px; 
-    background-color: var(--secondary-color);
+    background-color: var(--tetiary-color);
 }
 .contact  button {
     background-color: var(--base-color);
@@ -213,16 +213,16 @@ header{
     color: var(--base-color);
     text-decoration: none;
 }
-.social_links a:hover {
-    color: var(--secondary-color);
-    transition: all 1s ease-in-out;
-}
+
 .social_links ul {
     display: flex;
     flex-direction: column-reverse;
+    padding-left: 20px;
 }
 .social_links a:hover {
     scale: 1.1;
+     color: var(--secondary-color);
+    transition: all 1s ease-in-out;
 }
 footer {
     background-color: var(--primary-color);
@@ -231,5 +231,5 @@ footer {
     padding: 15px;
 }
 header {
-    background-color: var(--tetiary-color);
+    background-color: var(--primary-color);
 }
