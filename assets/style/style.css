@@ -1,8 +1,8 @@
 :root{
-    --primary-color: #393232;
-    --secondary-color: #ED8D8D;
-    --tetiary-color: #8D6262;
-    --base-color : #4D4545;
+    --primary-color: #000000;
+    --secondary-color: #EEEEEE;
+    --tetiary-color: #08CB00;
+    --base-color : #253900;
     --font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 *{
@@ -151,7 +151,7 @@ header{
     direction: rtl;
     padding: 15px;
     gap: 20px;
-    background-color: var(--tetiary-color);
+    background-color: var(--base-color);
     color: white;
     height: fit-content;
 }
@@ -208,6 +208,21 @@ header{
     padding-bottom: 150px;
     justify-content: space-around;
     gap: 10px;
+}
+.social_links a {
+    color: var(--base-color);
+    text-decoration: none;
+}
+.social_links a:hover {
+    color: var(--secondary-color);
+    transition: all 1s ease-in-out;
+}
+.social_links ul {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.social_links a:hover {
+    scale: 1.1;
 }
 footer {
     background-color: var(--primary-color);
