@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Biography</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav-links">
+                <li class="nav-items"><a href="index.html">Home</a></li>
+                <li class="nav-items"><a href="./about.html">About Me</a></li>
+                <li class="nav-items"><a href="./my_learning.html">My Learning</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="real-contact">
+    <section class="contact_me">
+        <div class="contact">
+            <form action="" method="get">
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="write your first name" required/>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="write your email" required/>
+                </p>
+                <p>
+                    <label for="section">Which Section do you have a question on?</label><br>
+                    <select name="section" id="section" required>
+                        <option value="none">None</option>
+                        <option value="about_me">About me</option>
+                        <option value="who_i_am">Who I Am</option>
+                        <option value="school-journey">My Learning</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" place holder="write your message" rows="3" cols="30" required></textarea>
+                </p>
+                <button class="primary_btn" type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+    </main>
+    <footer>
+    <p>&copy;My Biography</p>
+  </footer>
+  </body>
+  </html>

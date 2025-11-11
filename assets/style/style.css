@@ -47,9 +47,10 @@ header{
     grid-template-columns: 1fr 1fr;
     padding: 15px;
     gap: 20px;
+    background-color: var(--base-color);
 }
 .about_me_text{
-    color: var(--primary-color);
+    color: #ffffff;
 }
 .about_me_image{
     display: flex;
@@ -69,8 +70,8 @@ header{
     direction: rtl;
     padding: 15px;
     gap: 20px;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: #ffffff;
+    color: var(--base-color);
     height: fit-content;
 }
 .who_i_am_text{
@@ -89,8 +90,9 @@ header{
 }
 .who_i_am_image img{
     width: 100%;
-    height: 100%;
+    height: 150%;
     border-radius: 50%;
+    margin-top: 300px;
 }
 .primary_btn{
     text-decoration: none;
@@ -104,10 +106,10 @@ header{
     background-color: var(--secondary-color);
     color: white;
     transition: all 0.5s ease-in-out;
-    
 }
 
 .life_journey{
+    background-color: var(--tetiary-color);
     padding: 20px;
     color: var(--primary-color);
     text-align: center;
@@ -142,4 +144,77 @@ header{
     width: 100%;
     height: 100%;
     border-radius: 50%;
+}
+.school-journey{
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    direction: rtl;
+    padding: 15px;
+    gap: 20px;
+    background-color: var(--tetiary-color);
+    color: white;
+    height: fit-content;
+}
+.school-journey-text{ display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    direction: ltr;
+}
+.school-journey-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+}
+.school-journey-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.real-contact {
+    background-size: cover;
+    background-position: center;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    display: flex;
+}
+.contact_me {
+    display: block;
+}
+.contact {
+    border-radius: 5%;
+    padding: 50px;
+    border-style: solid;
+    border: var(--base-color);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 200px 100px 100px 200px; 
+    background-color: var(--secondary-color);
+}
+.contact  button {
+    background-color: var(--base-color);
+}
+.contact button:hover {
+    transition: all 0.87s ease-in-out;
+    scale: 1.1;
+    background-color: var(--tetiary-color);
+}
+.social_links {
+    background-color: var(--tetiary-color);
+    padding: 20px;
+    padding-bottom: 150px;
+    justify-content: space-around;
+    gap: 10px;
+}
+footer {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 15px;
+}
+header {
+    background-color: var(--tetiary-color);
 }
